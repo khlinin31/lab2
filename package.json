@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "name": "lab2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
