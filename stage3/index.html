@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Presentation web pages</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div id="main_container">
+            <div id="settings_container">
+                <div id="form_container">
+                    <form>
+                        <input type="url" id="url_input" class="form_input" placeholder="URL-адрес">
+                        <input type="number" id="interval_input" class="form_input" placeholder="Интервал в секундах" value="1">
+                        <button type="button" id="add_button" class="show_form_input">Добавить</button>
+                        <button type="button" id="start_button" class="show_form_input">Начать</button>
+                    </form>
+                </div>
+                <div id="url_list_container">
+                    <select id="url_list" size="6"></select>
+                </div>
+            </div>
+            <div id="slide_container">
+                <iframe id="slide" sandbox="allow-scripts allow-same-origin"></iframe>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
