@@ -4,12 +4,12 @@
   },
   "name": "lab2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "gulp.js",
   "devDependencies": {
     "browser-sync": "^2.29.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node gulp.js"
   },
   "author": "",
   "license": "ISC",
